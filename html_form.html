@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="/submit" method="POST">
+  <label for="username">아이디:</label>
+  <input type="text" id="username" name="username" required><br><br>
+
+  <label for="password">비밀번호:</label>
+  <input type="password" id="password" name="password" required><br><br>
+
+  <label for="job">직업:</label>
+  <select name="job" id="job">
+    <option value="dev">개발자</option>
+    <option value="design">디자이너</option>
+  </select><br><br>
+
+  <label for="message">문의 내용:</label><br>
+  <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+  <input type="submit" value="제출하기">
+</form>
+
+</body>
+</html>
